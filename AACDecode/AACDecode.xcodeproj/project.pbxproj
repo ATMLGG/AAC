@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F19360A1EEF7AC4003F1DEF /* yyj.aac in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A38F51EEE8A4B0004F3DB /* yyj.aac */; };
+		3F1A38F41EEE68C60004F3DB /* AACPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A38F31EEE68C60004F3DB /* AACPlayer.m */; };
 		3FE162181EEA77890005788E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE162171EEA77890005788E /* AppDelegate.m */; };
 		3FE1621B1EEA77890005788E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1621A1EEA77890005788E /* ViewController.m */; };
 		3FE1621E1EEA77890005788E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1621C1EEA77890005788E /* Main.storyboard */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1A38F21EEE68C60004F3DB /* AACPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACPlayer.h; sourceTree = "<group>"; };
+		3F1A38F31EEE68C60004F3DB /* AACPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACPlayer.m; sourceTree = "<group>"; };
+		3F1A38F51EEE8A4B0004F3DB /* yyj.aac */ = {isa = PBXFileReference; lastKnownFileType = file; name = yyj.aac; path = ../../../yyj.aac; sourceTree = "<group>"; };
 		3FE162131EEA77890005788E /* AACDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE162161EEA77890005788E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FE162171EEA77890005788E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,8 +63,11 @@
 		3FE162151EEA77890005788E /* AACDecode */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A38F51EEE8A4B0004F3DB /* yyj.aac */,
 				3FE162161EEA77890005788E /* AppDelegate.h */,
 				3FE162171EEA77890005788E /* AppDelegate.m */,
+				3F1A38F21EEE68C60004F3DB /* AACPlayer.h */,
+				3F1A38F31EEE68C60004F3DB /* AACPlayer.m */,
 				3FE162191EEA77890005788E /* ViewController.h */,
 				3FE1621A1EEA77890005788E /* ViewController.m */,
 				3FE1621C1EEA77890005788E /* Main.storyboard */,
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F19360A1EEF7AC4003F1DEF /* yyj.aac in Resources */,
 				3FE162231EEA77890005788E /* LaunchScreen.storyboard in Resources */,
 				3FE162201EEA77890005788E /* Assets.xcassets in Resources */,
 				3FE1621E1EEA77890005788E /* Main.storyboard in Resources */,
@@ -141,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1A38F41EEE68C60004F3DB /* AACPlayer.m in Sources */,
 				3FE1621B1EEA77890005788E /* ViewController.m in Sources */,
 				3FE162261EEA77890005788E /* main.m in Sources */,
 				3FE162181EEA77890005788E /* AppDelegate.m in Sources */,
@@ -275,7 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7CWWC3TVU2;
 				INFOPLIST_FILE = AACDecode/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yyj.cn.AACDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7CWWC3TVU2;
 				INFOPLIST_FILE = AACDecode/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yyj.cn.AACDecode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +326,7 @@
 				3FE1622B1EEA77890005788E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
